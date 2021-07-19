@@ -1,0 +1,120 @@
+body{
+    background-color: #151e33;
+}
+
+a{
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.body1{ /*Lo mismo pero es el recuadro del exterior que da un tono diferente de color y forma al background puesto en body*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b263e;
+    width: 785px;
+    height: 858px;
+    border-radius: 15px;
+    margin: 40px 538px;
+}
+
+.form{ /*Todo el cuerpo compuesto por el texto, los botones, barras, fond-color, etc*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+}
+
+.form p{ /*REVISAR*/ /*Todos los label dentro de form aplicaran esto, usarlo para la proxima en vez de <p>, cambie .form label por p recordar*/
+    font-weight: bold;
+    display: block;
+}
+
+.form input{ /*REVISAR*/ /*Todos los imput que esten dentro de form cumpliran*/
+    display: block;
+    border: none;
+    width: 100%;
+}
+ 
+.p1{ /*Texto 1*/
+    font-size: 16px;
+    color: #ffffff;
+    text-align: right;
+    line-height: 26px;
+    margin: 0 -14%
+}
+
+.p2{ /*Texto 2*/
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p3{ /*Texto 3*/
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+}
+
+.p4{ /*Texto 4*/
+    text-align: center;
+    color: #8f9ab2;
+    line-height: 24px;
+}
+
+.terms{ /*Fondo de color de los terminos*/
+    margin: 0 -9.3%;
+    width: 105%;
+    padding: 2rem;
+    background-color: #202e4e;
+    border-radius: 10px;
+}
+
+/*Botones username, mail, Password, submit*/
+
+.user{
+    height: 47px;
+    width: 284px;
+    border: 1px solid #495e8d;
+    background-color: #283653;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+
+.mail{
+    height: 47px;
+    width: 284px;
+    border: 1px solid #495e8d;
+    background-color: #283653;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+
+.password{
+    height: 47px;
+    width: 284px;
+    border: 1px solid #495e8d;
+    background-color: #283653;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+
+.submit{
+    background-color: palevioletred;
+    color: white;
+    height: 47px;
+    width: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-weight: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Fin*/
